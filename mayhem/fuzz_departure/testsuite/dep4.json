@@ -1,0 +1,1 @@
+[{"Name": "Ethanol-Water", "aliases": ["KW8"], "BibTeX": "From REFPROP 9.1 with permission", "type": "Exponential", "n": [1.09765, 1.94679, -2.16809, -0.137077, 0.048669, 1.04024], "t": [0.26, 7.3, 5.3, 2.3, 0.7, 3.3], "d": [2, 3, 5, 5, 7, 6], "l": [1, 2, 2, 1, 1, 2]}]

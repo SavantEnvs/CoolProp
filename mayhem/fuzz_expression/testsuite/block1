@@ -1,0 +1,1 @@
+{"formula": "a*T + 1", "constants": {"a": 2.0}, "state_variables": ["T"]}

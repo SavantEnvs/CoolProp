@@ -1,0 +1,12 @@
+project: savantenvs/CoolProp
+target: fuzz_fluid_json
+
+cmds:
+  - cmd: /mayhem/fuzz_fluid_json
+    libfuzzer: true
+    timeout: 20
+    dictionary: /mayhem/mayhem/fuzz_fluid_json/fuzz_fluid_json.dict
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_fluid_json/testsuite

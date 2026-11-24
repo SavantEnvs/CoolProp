@@ -1,0 +1,11 @@
+project: savantenvs/CoolProp
+target: fuzz_svd_load
+
+cmds:
+  - cmd: /mayhem/fuzz_svd_load
+    libfuzzer: true
+    timeout: 20
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_svd_load/testsuite

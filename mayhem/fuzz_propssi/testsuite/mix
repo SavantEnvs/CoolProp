@@ -1,0 +1,6 @@
+Dmolar
+T
+250
+P
+1e6
+HEOS::Methane[0.5]&Ethane[0.5]
